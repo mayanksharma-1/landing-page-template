@@ -3,3 +3,28 @@ img.placeholder{
     width:700px;
     height:400px;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    /* flex: 1; */
+    font-size: 24px;
+}
+
+.links{
+    flex-grow: inherit;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
