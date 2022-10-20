@@ -57,11 +57,13 @@ body{
     color: #E5E7EB;
     display: flex;
 }
-.heading-text button{
+.sign-button1{
     background-color: #3882F6;
     color: white;
-    height: 25px;
-    width: 70px;
+    height: 30px;
+    width: 80px;
+    border: 2px;
+    border-radius: 10%;
 }
 .heading-img{
     flex: 1;
@@ -71,4 +73,22 @@ body{
 }
 img.placeholder{
     border: solid;
+}
+.info{
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+}
+.album{
+    display: flex;
+    justify-content: center;
+}
+.album-element{
+    height: 120px;
+    width: 120px;
+    border: solid #3882F6;
+    border-radius: 15px;
+    margin: 25px;
+    margin-top: 0px;
 }
